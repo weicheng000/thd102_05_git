@@ -1,0 +1,38 @@
+@import url(../MyWorkPlace/reset.css);
+
+.wrapper{
+    width: 800px;
+    height: 800px;
+    background-color: #e5e5e5;
+    margin: 30px auto;
+}
+header{
+    width: calc(100%-10px);
+    height: auto;
+    background-color: #fff;
+    border: 5px solid #e5e5e5;
+}
+h1{
+    font-family: Arial;
+    font-size: 45px;
+    text-align: center;
+    line-height: 90px;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+}
+li{
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #fff;
+}
+a{
+    width: 100%;
+    text-decoration: none;
+    font-family: monospace;
+    color: #000;
+    line-height: 40px;
+    font-size: 14px;
+}
