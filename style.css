@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* 要去問一下丸子老師為什麼reset導不進style */
 
 
 
@@ -70,7 +70,6 @@ ul{
     width: 100%;
 }
 li{
-    flex-direction: column;
     flex-grow: 1;
     background-color: #fff;
     padding: 10px;
@@ -84,4 +83,19 @@ a{
     font-size: 14px;
     display: block;
     text-align: center;
+}
+
+@media screen and (max-width:428px) {
+    .wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        border-radius: 10px;
+    }
+
+    
 }
