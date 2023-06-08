@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+.wrapper{
+    width: 800px;
+    height: 800px;
+    background-color: #FAFAEB;
+    margin: 30px auto;
+}
+header{
+    width: calc(100%-10px);
+    height: auto;
+    background-color: #fff;
+    border: 5px solid #FAFAEB;;
+}
+h1{
+    font-family: Arial;
+    font-size: 45px;
+    text-align: center;
+    line-height: 90px;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+}
+li{
+    flex-grow: 1;
+    background-color: #DB9C39;
+    padding: 10px;
+    border: 3px solid #FAFAEB;;
+}
+a{
+    text-decoration: none;
+    font-family: monospace;
+    color: #000;
+    line-height: 40px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width:428px) {
+    .wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        border-radius: 10px;
+    }
+
+    
+}
