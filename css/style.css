@@ -1,55 +1,104 @@
 @import url(reset.css);
+@font-face {
+    font-family: 'Naikai';
+    src:local('NaikaiFont'),
+        url('../fonts/NaikaiFont-Regular.woff') format("woff"), 
+        url('../fonts/NaikaiFont-Regular.ttf') format("truetype");
+  }
 
-.wrapper{
-    width: 800px;
-    height: 800px;
-    background-color: #FAFAEB;
-    margin: 30px auto;
-}
-header{
-    width: calc(100%-10px);
-    height: auto;
-    background-color: #fff;
-    border: 5px solid #FAFAEB;;
-}
-h1{
-    font-family: Arial;
-    font-size: 45px;
-    text-align: center;
-    line-height: 90px;
-}
 
-ul{
-    display: flex;
+
+body{
     width: 100%;
+    background-color: #fff ;
+}
+.wrapper{
+    background-color: #FAFAEB;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/* 以下為header區 */
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    height: 150px;
+    background-color: rgba(250, 250, 235, .8);
+    display: flex;
+    justify-content: flex-end;
+
+}
+.HeaderContent{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.LeftItem{
+    display: flex;
+    align-items: center;
+}
+.LeftItem h1{
+    font-family: 'Naikai';
+    font-size: 45px;
+    line-height: 2;
+    margin-left: 20px;
+    color: #7A450F;
+}
+
+.RightItem{
+}
+.RightItem ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 li{
-    flex-grow: 1;
-    background-color: #DB9C39;
-    padding: 10px;
-    border: 3px solid #FAFAEB;;
+    width: 150px;
 }
 a{
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     font-family: monospace;
-    color: #000;
+    color: #7A450F;
     line-height: 40px;
-    font-size: 14px;
-    display: block;
+    font-size: 30px;
+}
+/* 以上為header區 */
+/* 以下為進版圖 */
+.contentone {
+    width: 1920px;
+    height: 800px;
+    background-image: url('../img/ContentBG1.png');
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentonetxt {
+    width: 50%;
+}
+.contentone h2{
+    font-family: 'Naikai';
+    line-height: 1.15;
     text-align: center;
+    font-size: 100px;
+    color: rgba(250, 250, 235, 1);
+    text-shadow: rgba(0, 0, 0, .25) 4px 4px 10px;
+}
+.contentone h3{
+    font-family: 'Naikai';
+    text-align: center;
+    font-size: 40px;
+    color: rgba(250, 250, 235, 1);
+    text-shadow: rgba(0, 0, 0, .25) 4px 4px 10px;
+
+    margin-top: 71px;
 }
 
-@media screen and (max-width:428px) {
-    .wrapper{
-        width: 100%;
-        margin: 0;
-    }
-    ul{
-        flex-direction: column;
-    }
-    li{
-        border-radius: 10px;
-    }
 
-    
-}
+/* 以上為進版圖 */
