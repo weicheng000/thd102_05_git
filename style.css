@@ -49,14 +49,14 @@ table {
 .wrapper{
     width: 800px;
     height: 800px;
-    background-color: #e5e5e5;
+    background-color: #FAFAEB;
     margin: 30px auto;
 }
 header{
     width: calc(100%-10px);
     height: auto;
     background-color: #fff;
-    border: 5px solid #e5e5e5;
+    border: 5px solid #FAFAEB;;
 }
 h1{
     font-family: Arial;
@@ -71,9 +71,9 @@ ul{
 }
 li{
     flex-grow: 1;
-    background-color: #fff;
+    background-color: #DB9C39;
     padding: 10px;
-    border: 3px solid #e5e5e5;
+    border: 3px solid #FAFAEB;;
 }
 a{
     text-decoration: none;
