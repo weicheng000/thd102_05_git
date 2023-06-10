@@ -5,6 +5,7 @@
         url('../fonts/NaikaiFont-Regular.woff') format("woff"), 
         url('../fonts/NaikaiFont-Regular.ttf') format("truetype");
   }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;500&family=Roboto:wght@100;400&display=swap');
 
 .body{
     font-size: 16px;
@@ -59,7 +60,6 @@
     text-align: right;
     display: block;
     text-decoration: none;
-
 }
 .fa-solid fa-bars{
     width: 40px;
@@ -68,6 +68,7 @@
 header{
     background-image: url(../img/ContentBG1.png);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
     box-sizing: border-box;
     padding: 20px;
@@ -115,4 +116,95 @@ header{
     line-height: 2;
     text-align: center;
     text-decoration: none;
+}
+
+/* 第一區塊 */
+
+main{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    width: 60%;
+    display: flex;
+}
+.content1 img{
+    width: 400px;
+    height: 600px;
+    margin-top: 6.5%;  
+}
+section{
+    font-family: 'Noto Serif TC', serif;
+    color: #7A450F;
+
+    padding: 0 100px;
+    position: relative;
+}
+section h3{
+    font-size: 3.2em;
+    text-align: center;
+    font-weight: bold;
+
+    margin-bottom: 5%;
+}
+section p{
+    font-size: 1.4em;
+    line-height: 2;
+    margin-bottom: 3%;
+}
+section a{
+    font-size: 1.3em;
+    font-family: 'Naikai';
+    color: #FAFAEB;
+    background-color: #DB4F57;
+    display: block;
+    width: 150px;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+
+
+    position: absolute;
+    right: 90px;
+    bottom: 0;
+}
+.slideshow {
+    height: 800px;
+    background-color: #FFEDB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slideshowcontent {
+}
+.slideshowcontent h3{}
+.slideshowcontent h4{
+    font-size: 2rem;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.slideshowcontent ul{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.slideshowcontent li{
+    width: 300px;
+    height: 450px;
+    background-color: #DB4F57;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.slideshowcontent a{
+    position: static;
+    height: 40px;
+    margin-top: 380px;
+    display: block;
+    border: 2px solid #7A450F;
 }
