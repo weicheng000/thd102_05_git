@@ -1,8 +1,108 @@
 @media screen and (max-width:428px) {
-    .HeaderContent {
+    .wrapper{
+        width: auto;
+    }
+    /* 天 */
+    .topbar{
+        width: auto;
+        justify-content: space-between;
+    }
+    .topbarcontent{
         width: 100%;
     }
-    .LeftItem h1{
+    .topleftitem img{
+        width: 40px;
+        height: 40px;
+    }
+    .storename {
+        font-size: 1.5em;
+    }
+    .toprightitem ul li{
+        margin-left: 20px;
+        width: auto;
+    }
+    .toprightitem ul li a{
+        width: auto;
+        font-size: 0.8em;
+        line-height: 50px;
+    }
+    /* 版圖 */
+    .headtxt h1{
+        font-size: 3.8em;
+    }
+    /* 第一區塊 */
+    .content1 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .content1 img{
+        display: none;
+    }
+    section h3{
+        font-size: 1.5em;
+    }
+    section p{
+        font-size: 1.05em;
+    }
+    section a{
+        right: 20px;
+        bottom: -40px;
+    }
+    /* 第二區塊 */
+    .slideshow{}
+    .slideshowcontent{
+        width: auto;
+    }
+    .slideshowcontent h4{
+        font-size: 1.05em;
+    }
+    .slideshowcontent ul{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slideshowcontent li{
+        width: 80%;
+        height: 200px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    .slideshowcontent a{
+        font-size: 0.8em;
+        width: 90px;
+        height: 20px;
+        line-height: 20px;
         margin: 0;
+
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+    /* 第三區塊 */
+    .evaluatetxt{
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .evaluatetxt img{
+        width: 70px;
+        height: 70px;
+    }
+    .evaluatetxt>p{
+        margin: 0;
+    }
+    .evaluatecontent>ul>li{
+        width: 10px;
+        height: 10px;
+    }
+    /* 頁尾 */
+    footer{
+        height: auto;
+    }
+    .footercontent{
+        flex-direction: column;
+    }
+    .footercontent ul{
+        margin:20px 0;
     }
 }
