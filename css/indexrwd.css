@@ -103,10 +103,17 @@
         flex-direction: column;
     }
     .footercontent ul{
-        margin:20px 10px;
+        margin:10px 10px;
         flex-direction: row;
+        gap: 15px;
     }
     .footercontent ul:last-child{
         flex-direction: column;
+    }
+    .footercontent li a{
+        font-size: 1.2em;
+    }
+    .footercontent ul li{
+        font-size: 0.85em;
     }
 }
