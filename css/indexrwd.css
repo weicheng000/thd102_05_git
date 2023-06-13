@@ -85,8 +85,8 @@
         justify-content: center;
     }
     .evaluatetxt img{
-        width: 70px;
-        height: 70px;
+        width: 35px;
+        height: 35px;
     }
     .evaluatetxt>p{
         margin: 0;
@@ -103,6 +103,10 @@
         flex-direction: column;
     }
     .footercontent ul{
-        margin:20px 0;
+        margin:20px 10px;
+        flex-direction: row;
+    }
+    .footercontent ul:last-child{
+        flex-direction: column;
     }
 }
