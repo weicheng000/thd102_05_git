@@ -1,0 +1,69 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4.2fr;
+    grid-template-rows: 100vh;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Naikai';
+    font-size: 50px;
+    color: #7A450F;
+    font-weight: bold;
+}
+h2{
+    color: #7A450F;
+    font-family: 'Naikai';
+    font-size: 40px;
+}
+h6{
+    color: #7A450F;
+    font-family: 'Noto Sans TC';
+    font-weight: bold;
+    font-size: 15px;
+}
+/* 左邊功能欄 */
+nav, .logo, .mainselect, .maintxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    justify-content: center;
+
+    background-color: #FAFAEB;
+    color: #7A450F;
+}
+
+.logo{
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.mainselect{
+    gap: 20px;
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+}
+.txtlink{
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+    font-weight: bold;
+    color: #7A450F;
+}
+.maintxt {
+    align-items: start;
+    padding: 30px;
+}
+section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/* hover */
+.mainselect>li>a:hover{
+    color: #DB4F57;;
+}

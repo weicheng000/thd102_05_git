@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'Naikai';
     src:local('NaikaiFont'),
-        url('../fonts/NaikaiFont-Regular.woff2') format("woff2");
+        url('../fonts/NaikaiFont-Regular-Lite.woff2') format("woff2");
   }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;500&family=Roboto:wght@100;400&display=swap');
 

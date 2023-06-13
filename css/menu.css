@@ -1,0 +1,10 @@
+@import url(reset.css);
+@import url(fonts.css);
+@font-face {
+    font-family: 'Naikai';
+    src:local('NaikaiFont'),
+        url('../fonts/NaikaiFont-Regular-Lite.woff2') format("woff2");
+  }
+
+body{}
+/* 右邊主頁面 */
