@@ -1,0 +1,24 @@
+.timeline{
+    display: flex;
+}
+.timepic{
+    width: 200px;
+    height: 130px;
+}
+.timecard{
+    flex-grow: 10;
+
+    padding: 50ox;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+.years{
+    margin: 40px;
+}
