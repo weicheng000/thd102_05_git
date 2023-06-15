@@ -23,6 +23,14 @@ h6{
     font-weight: bold;
     font-size: 15px;
 }
+p{
+    color: #7A450F;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC';
+    line-height: 22px;
+    text-shadow: 2px 2px 8px;
+}
 /* 左邊功能欄 */
 nav, .logo, .mainselect, .maintxt{
     display: flex;
