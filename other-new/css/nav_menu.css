@@ -1,0 +1,77 @@
+/* ----- main basic attrubute -----*/
+main{
+    padding: 23px 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 8fr 1fr;
+    grid-template-areas: 'part1' 'part2' 'part3';
+}
+.topbar{
+    grid-area: part1;
+}
+.maincard{
+    grid-area: part2;
+}
+.mainstyle{
+    grid-area: part3;
+}
+
+
+
+
+/* ----- top bar ----- */
+.topbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.topbarbottomlink{
+    text-decoration: none;
+    color: #7A450F;
+    font-size: 18px;
+    margin-left: 85px;
+}
+
+.mainstyle{}
+
+
+/* -----  main section (card) ----- */
+.maincard{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'card1 card2 card3' 'card4 card5 card6';
+    align-items: center;
+    justify-items: center;
+
+    border-top: 4px solid #7A450F;
+}
+.cardimg{
+    width: 220px;
+
+}
+
+/* ---- cards grid area setting ----- */
+.maincard>li:nth-child(1){
+    grid-area: card1;
+}
+.maincard>li:nth-child(2){
+    grid-area: card2;
+}
+.maincard>li:nth-child(3){
+    grid-area: card3;
+}
+.maincard>li:nth-child(4){
+    grid-area: card4;
+}
+.maincard>li:nth-child(5){
+    grid-area: card5;
+}
+.maincard>li:nth-child(6){
+    grid-area: card6;
+}
+/* ----- bottom bar ----- */

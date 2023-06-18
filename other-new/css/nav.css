@@ -1,0 +1,103 @@
+
+/* ----- basic ----- */
+.wrapper{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 3.3fr;
+    grid-template-rows: 100vh;
+}
+h1{
+    font-size: 30px;
+    color: #7A450F;
+    font-weight: bold;
+}
+h2{
+    font-size: 35px;
+    color: #7A450F;
+    font-weight: bold;
+}
+h3{
+    font-size: 16px;
+    color: #7A450F;
+    font-weight: bold;
+}
+.page{
+    text-decoration: none;
+    font-size: 20px;
+    color: #7A450F;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+    color: #7A450F;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* ----- copy form from nav_menu ----- */
+.topbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.topbarbottomlink{
+    text-decoration: none;
+    color: #7A450F;
+    font-size: 18px;
+    margin-left: 85px;
+}
+
+
+/* -------------------------------- */
+.leftfunction{
+/* ----- arritubte ----- */
+    background-color: #FAFAEB;
+    padding: 20px;
+/* ----- grid part ----- */
+    grid-column-start: 1;
+    grid-column-end: 2;
+/* ----- flex part ----- */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ----- parent part set ----- */
+.top{
+    text-align: center;
+}
+.logo{
+    margin-bottom: 20px;
+}
+/* ----- top part set ----- */
+.parent_pglist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pglist{
+    margin-bottom: 25px;
+    text-align: center;
+}
+/* ---- midden part set ----- */
+
+main{
+/* ----- grid part ----- */
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+/* ----- page number form ----- */
+.mainstyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 185px;
+    margin: 0 auto;
+}
+.pgnum{
+    text-decoration: none;
+    color: #7A450F;
+}
