@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <aside>
-            <h2>參星便當<br>真誠為您服務！</h2>
+            <h2>參星便當，<br>真誠為您服務！</h2>
             <img src="./img/content1img.jpg" alt="">
             <img src="./img/24383455_s.jpg" alt="">
             <img src="./img/26521961_s.jpg" alt="">
@@ -24,12 +24,13 @@
             <div class="mainfc">
                 <h1>歡迎登入!</h1>
                 <label for="phnum">手機號碼：</label>
-                <input type="text" id="phnum">
+                <input type="tel" id="phnum" name="phone"
+  placeholder="0912-345-678"
+  pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" autofocus>
                 <label for="pw">密碼：</label>
-                <input type="text" id="pw">
+                <input type="password" id="pw" name="pwd" minlength="8">
                 <button class="btn_login">登入!</button>
             </div>
-             <hr>
             <div class="subfu">
                 <ul>
                     <li><a href="#">忘記密碼？</a></li>

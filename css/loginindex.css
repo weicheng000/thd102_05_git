@@ -3,15 +3,17 @@
     src:local('NaikaiFont'),
         url('../fonts/NaikaiFont-Regular-Lite.woff2') format("woff2");
   }
-
+body{
+    display: flex;
+    justify-content: center;
+}
 .wrapper{
     width: 1200px;
     height: 600px;
-    margin: 0 auto;
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 15vh 70vh 15vh;
+    grid-template-rows: 15fr 70fr 15fr;
     grid-template-areas: 'pic top' 'pic main' 'pic bottom';
 }
 aside{
@@ -31,6 +33,7 @@ aside>h2{
     top: 150px;
     z-index: 15;
 }
+
 aside>img{
     width: 150px;
     height: 600px;
@@ -63,6 +66,7 @@ header{
     font-weight: bold;
     color: #7A450F;
     letter-spacing: 2px;
+    font-family: 'Naikai';
 }
 .logo::before{
     content: "參星";
@@ -93,9 +97,10 @@ main{
     flex-direction: column;
 }
 label{
-    font-size: 20px;
+    font-size: 16px;
     color: #7A450F;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .btn_login{
     background-color: #DB4F57;
@@ -105,6 +110,7 @@ label{
     color: #FAFAEB;
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 /* ----- main sub part ----- */
 .subfu>ul{
