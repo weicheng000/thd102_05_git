@@ -30,8 +30,16 @@ main{
 .topbarbottomlink{
     text-decoration: none;
     color: #7A450F;
+    font-family: 'Noto Sans TC';
     font-size: 18px;
-    margin-left: 85px;
+    margin-left: 45px;
+    transition: .5s;
+}
+.topbarbottomlink:hover{
+    font-size: 20px;
+    color: #DB4F57;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px #999;
 }
 
 .mainstyle{}
@@ -48,11 +56,72 @@ main{
     align-items: center;
     justify-items: center;
 
-    border-top: 4px solid #7A450F;
+    border-top: 3px solid #7A450F;
+    /* ----- for hover part ----- */
 }
-.cardimg{
-    width: 220px;
 
+.cardimg{
+    width: 230px;
+    height: 155px;
+    background-position: center center;
+    /* opacity: .3; */
+}
+.maincardhover{
+    position: absolute;
+    left: 0;
+    top: -160px;
+    transition: .5s;
+}
+.maincard>li{
+    width: 230px;
+    height: 155px;
+    position: relative;
+    overflow: hidden;
+}
+.maincard>li:hover .maincardhover {
+    left: 0;
+    top: 0;
+}
+
+.maincardhover>li{
+    width: 230px;
+    height: 155px;
+    background-color: rgb(255, 255, 255 ,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu_btn{
+    display: flex;
+    justify-content: space-around;
+}
+.maincardhover>li>p{
+    letter-spacing: 3px;
+}
+#pls{
+    background-color: #DB4F57;
+    color: #FAFAEB;
+    border: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#min{
+    background-color: #DB4F57;
+    color: #FAFAEB;
+    border: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#count{
+    width: 30px;
+}
+#submit{
+    background: #DB4F57;
+    color: #FAFAEB;
+    border: 0;
+    border-radius: 20px;
 }
 
 /* ---- cards grid area setting ----- */

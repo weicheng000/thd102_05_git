@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: 'Naikai';
+    src: url(../NaikaiFont-Regular-Lite.woff2) format("woff2");
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 /* ----- basic ----- */
 .wrapper{
     width: 1200px;
@@ -7,28 +11,41 @@
     grid-template-rows: 100vh;
 }
 h1{
-    font-size: 30px;
+    font-size: 28px;
     color: #7A450F;
     font-weight: bold;
+    font-family: 'Naikai';
+    letter-spacing: 4px;
 }
 h2{
-    font-size: 35px;
+    font-size: 28px;
+    font-family: 'Naikai';
+    letter-spacing: 10px;
     color: #7A450F;
     font-weight: bold;
 }
 h3{
     font-size: 16px;
+    font-family: 'Noto Sans TC';
     color: #7A450F;
     font-weight: bold;
 }
 .page{
+    font-family: monospace, 'Noto Sans TC';
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #7A450F;
     font-weight: bold;
+    transition: .5s;
+}
+.page:hover{
+    color: #DB4F57;
+    font-size: 18px;
+    text-shadow: #999;
 }
 p{
-    font-size: 14px;
+    font-family: monospace, 'Noto Sans TC';
+    font-size: 12px;
     color: #7A450F;
     font-weight: bold;
     text-align: center;
@@ -72,6 +89,9 @@ p{
 .logo{
     margin-bottom: 20px;
 }
+.logo>img{
+    width: 100px;
+}
 /* ----- top part set ----- */
 .parent_pglist{
     display: flex;
@@ -88,6 +108,7 @@ main{
 /* ----- grid part ----- */
     grid-column-start: 2;
     grid-column-end: 3;
+    background-image: url('../bg0001.jpg');
 }
 /* ----- page number form ----- */
 .mainstyle{
@@ -100,4 +121,10 @@ main{
 .pgnum{
     text-decoration: none;
     color: #7A450F;
+    font-family: monospace;
+    transition: .1s;
+}
+.pgnum:hover{
+    font-size: 18px;
+    color: #DB4F57;
 }
