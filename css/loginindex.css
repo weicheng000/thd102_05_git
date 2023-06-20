@@ -3,6 +3,8 @@
     src:local('NaikaiFont'),
         url('../fonts/NaikaiFont-Regular-Lite.woff2') format("woff2");
   }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@300;700&display=swap');
+
 body{
     display: flex;
     justify-content: center;
@@ -76,6 +78,9 @@ header{
     content: "便當";
     vertical-align: 90%;
 }
+.logo>a{
+    text-decoration: none;
+}
 .logo>a>img{
     width: 75px;
 }
@@ -84,6 +89,7 @@ h1{
     margin-bottom: 45px;
     color: #7A450F;
     font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 /* ----- main bar ------ */
 main{
@@ -134,4 +140,5 @@ label{
     width: 120px;
     font-size: 14px;
     line-height: 28px;
+    font-family: 'Noto Sans TC', sans-serif;
 }
