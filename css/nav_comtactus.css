@@ -51,6 +51,9 @@ main {
 .pre_comment>li>p{
     text-align: left;
     font-weight: normal;
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
 }
 
 .pre_comment>li>img{
