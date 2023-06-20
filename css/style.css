@@ -35,7 +35,9 @@
     display: flex;
     align-items: center;
 }
-.topleftitem img{}
+.topleftitem>img{
+    width: 100px;
+}
 .storename{
     font-size: 3em;
     font-family: 'Naikai';
