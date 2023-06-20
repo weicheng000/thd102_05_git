@@ -42,7 +42,7 @@ h3{
 .page:hover{
     color: #DB4F57;
     font-size: 18px;
-    text-shadow: #999;
+    text-shadow: 3px 3px 10px #7A450F;
 }
 p{
     font-family: monospace, 'Noto Sans TC', serif;

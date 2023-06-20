@@ -1,3 +1,10 @@
+/* ----- page highlight ------ */
+.pglist:nth-child(1)>a{
+    color: #DB4F57;
+    font-size: 18px;
+    text-shadow: 3px 3px 10px #7A450F;
+}
+
 /* ----- basic attribute ----- */
 main{
     display: grid;
