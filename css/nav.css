@@ -89,7 +89,7 @@ p{
 .logo{
     margin-bottom: 20px;
 }
-.logo>img{
+.logo>a>img{
     width: 100px;
 }
 /* ----- top part set ----- */
@@ -108,7 +108,7 @@ main{
 /* ----- grid part ----- */
     grid-column-start: 2;
     grid-column-end: 3;
-    background-image: url('../bg0001.jpg');
+    background-image: url('../img/bg0001.jpg');
 }
 /* ----- page number form ----- */
 .mainstyle{

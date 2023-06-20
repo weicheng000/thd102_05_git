@@ -25,6 +25,8 @@ main{
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+
+    position: relative;
 }
 
 .topbarbottomlink{
